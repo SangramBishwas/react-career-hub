@@ -14,4 +14,5 @@ const savedJobApplicaton = id => {
         localStorage.setItem('job-application', JSON.stringify(storedJobApplications))
     }
 }
+
 export { getStoredJobApplication, savedJobApplicaton }

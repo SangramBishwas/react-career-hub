@@ -6,7 +6,7 @@ const JobDetails = () => {
     const { id } = useParams();
     const idInt = parseInt(id)
     const job = jobs.find((job) => job.id === idInt)
-    console.log(job, id)
+    // console.log(job, id)
     const { job_description, job_responsibility, educational_requirements, experiences, contact_information, job_title, salary } = job;
     const { phone, email, address } = contact_information;
 
